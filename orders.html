@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-order Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+
+        <section class="flex">
+            <a href="index.html" class="logo">
+                <!-- <div class="icon"><img src="C:\Users\User\Downloads\tteok.png"></div> -->
+                The Gallery Café</a>
+
+                <nav class="navbar">
+                    <a href="index.html">HOME</a>
+                    <a href="menu.php">MENU</a>
+                    <a href="orders.html">PRE-ORDER</a>
+                    <a href="reservation.html">RESERVATION</a>
+                    <a href="contact.html">CONTACT</a> 
+                    <a href="/M/ADMIN/login.html">LOGIN</a>
+                </nav>
+
+        </section>
+    </header>
+
+
+    <section id="preorder" class="pre-order">
+    <div class="container">
+    <h2>Pre-order Form</h2>
+    <form id="preorderform" action="pre_order.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="product">Product:</label>
+        <input type="text" id="product" name="product" required>
+            
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+
+        <label for="pre_order_date">Pre-order Date:</label>
+        <input type="date" id="pre_order_date" name="pre_order_date" required>
+        
+        <label for="pre_order_time">Pre-order Time:</label>
+        <input type="time" id="pre_order_time" name="pre_order_time" required>
+        
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" name="notes"></textarea>
+        
+        <button type="submit">Submit Pre-order</button>
+    </form>
+    </div>
+    </section>
+
+
+    <footer class="footer"><h4 class="footer-title">Contact Us</h4>
+        <section class="grid">
+            <div class="footer-contact">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>551/A,<br> Colombo rd,<br> Wattala.</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@thegallerycafe.lk">info@thegallerycafe.lk</a>
+            </div>
+            <div class="footer-contact">
+                <i class="fas fa-user-clock"></i>
+                <p>Everyday from 9.00AM to 11.00PM</p>
+            </div>
+        </section>
+
+        <div class="credits">&copy; Copyright The Gallery Cafe 2024.All Rights Reserved.</div>
+
+    </footer>
+
+</body>
+</html>

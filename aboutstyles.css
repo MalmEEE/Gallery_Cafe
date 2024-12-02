@@ -1,0 +1,296 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #c49a6c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #a07c50;
+}
+
+/* Our Story Section */
+.story-section {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.story-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timeline-event {
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-event img {
+    width: 100%;
+    height: auto;
+}
+
+.event-details {
+    padding: 20px;
+}
+
+.event-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Culinary Philosophy Section */
+.philosophy-section {
+    background-color: #fafafa;
+    padding: 80px 20px;
+}
+
+.philosophy-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.philosophy-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.philosophy-text {
+    max-width: 600px;
+}
+
+.philosophy-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.philosophy-text p, blockquote {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #777;
+}
+
+/* Team Section */
+.team-section {
+    background-color: #f1f1f1;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 16px;
+}
+
+/* Signature Dishes Section */
+.dishes-section {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.dishes-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dish {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.dish img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dish-info h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.dish-info p {
+    font-size: 16px;
+}
+
+/* Artistic Expression Section */
+.art-section {
+    background-color: #fafafa;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art-gallery img {
+    width: 250px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Awards and Recognition Section */
+.awards-section {
+    background-color: #f1f1f1;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.awards-carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.award {
+    min-width: 250px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.award img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.award p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Customer Voices Section */
+.testimonials-section {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial {
+    width: 300px;
+    margin: 20px;
+    font-style: italic;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    color: #c49a6c;
+}

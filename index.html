@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <section class="flex">
+            <a href="index.html" class="logo">
+                The Gallery Café</a>
+
+                <nav class="navbar">
+                    <a href="index.html">HOME</a>
+                    <a href="menu.php">MENU</a>
+                    <a href="orders.html">PRE-ORDER</a>
+                    <a href="reservation.html">RESERVATION</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="/M/ADMIN/login.html">LOGIN</a> 
+                </nav>
+
+        </section>
+    </header>
+
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h2>Welcome To</h2>
+                        <span>The Gallery Café</span>
+                        <h3>Where art meets appetite</h3>
+                    </div>
+                    <div class="image">
+                        <img src="images\food4.webp">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h3>Let's taco 'bout delicious! The Gallery Café awaits.</h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/food2.webp">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h3>Don't just scroll, indulge! Visit The Gallery Café today. </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/coffee.webp">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+          <h2>About The Gallery Cafe</h2>
+          <p>We are passionate about creating a unique dining experience that awakens both your taste buds and your artistic senses. Our dishes are prepared with fresh, seasonal ingredients, and our cafe is adorned with beautiful artwork by local artists.</p>
+        </div>
+        <div class="about-image">
+          <img src="images/starter.jpg" 
+          alt="The Gallery Cafe Interior">
+        </div>
+      </section>
+
+
+       <!-- About Section -->
+    <section id="ourstory" class="ourstory-section">
+        <div class="ourstory-container">
+            <div class="ourstory-content">
+                <div class="ourstory-image">
+                    <img src="images/gallery.webp" alt="Gallery Image">
+                </div>
+                <div class="ourstory-text">
+
+                    <h2>Our Story</h2>
+                    <p>Founded in 2020, The Gallery Café was born out of a passion for fine dining and a love for contemporary art. We envisioned a place where food lovers and art enthusiasts could come together to enjoy exquisite cuisine amidst an inspiring setting. Each visit to our café is a feast for the senses, with our carefully curated art pieces and meticulously crafted dishes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      
+
+    <section class="category">
+
+        <h1 class="title">food category</h1>
+     
+        <div class="box-container">
+     
+           <a href="menu.php" class="box">
+              <img src="images/starter.jpg" alt="">
+              <h3>Starters</h3>
+           </a>
+        
+           <a href="menu.php" class="box">
+              <img src="images/pasta.jpg" alt="">
+              <h3>Main Courses</h3>
+           </a>
+        
+           <a href="menu.php" class="box">
+              <img src="images/salad1.webp" alt="">
+              <h3>Sides</h3>
+           </a>
+        
+           <a href="menu.php" class="box">
+              <img src="images/dessert.jfif" alt="">
+              <h3>Desserts</h3>
+           </a>
+
+           <a href="menu.php" class="box">
+            <img src="images/mocktail1.jpg" alt="">
+            <h3>Beverages</h3>
+         </a>
+
+         <a href="menu.php" class="box">
+            <img src="images/vege.jpg" alt="">
+            <h3>Vegan Options</h3>
+         </a>
+     
+        </div>
+     
+     </section>
+
+
+
+
+
+     <section class="products">
+
+        <h1 class="title">latest dishes</h1>
+     
+        <div class="box-container">
+     
+           <form accept="" method="post" class="box">
+              <!-- <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button> -->
+              <img src="images/pasta.jpg" alt="">
+              <a href="menu.php" class="cat">Main Courses</a>
+              <div class="name">Pasta Alfredo</div>
+              <div class="flex">
+                 <div class="price"><span>Rs.1600/-</span></div>
+              </div>
+           </form>
+     
+           <form accept="" method="post" class="box">
+              <img src="images/grilled-salmon.jpg" alt="">
+              <a href="menu.php" class="cat">Main Courses</a>
+              <div class="name">Grilled Salmon</div>
+              <div class="flex">
+                 <div class="price"><span>Rs.2200/-</span></div>
+              </div>
+           </form>
+     
+           <form accept="" method="post" class="box">
+              <img src="images/vege.jpg" alt="">
+              <a href="menu.php" class="cat">Vegan Options</a>
+              <div class="name">Vegan Buddha Bowl</div>
+              <div class="flex">
+                 <div class="price"><span>Rs.1500/-</span></div>
+              </div>
+           </form>
+     
+           <form accept="" method="post" class="box">
+             
+              <img src="images/mocktail3.jfif" alt="">
+              <a href="menu.php" class="cat">Beverages</a>
+              <div class="name">Blueberry Virgin Mojito</div>
+              <div class="flex">
+                 <div class="price"><span>Rs.1600/-</span></div>
+              </div>
+           </form>
+     
+           <form accept="" method="post" class="box">
+              <!-- <a href="quick_view.html" class="fas fa-eye"></a> -->
+              
+              <img src="images/sushi1.jfif" alt="">
+              <a href="menu.php" class="cat">Sides</a>
+              <div class="name">Sushi - Fusion Rolls</div>
+              <div class="flex">
+                 <div class="price"><span>Rs.2800/-</span></div>
+                 <!-- <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;"> -->
+              </div>
+           </form>
+     
+           <!-- <form accept="" method="post" class="box">
+              <a href="quick_view.html" class="fas fa-eye"></a>
+              <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+              <img src="uploaded_img/dish-2.png" alt="">
+              <a href="category.html" class="cat">dishes</a>
+              <div class="name">main dish 02</div>
+              <div class="flex">
+                 <div class="price"><span>$</span>3<span>/-</span></div>
+                 <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+              </div>
+           </form>
+      -->
+        </div>
+     
+        <div class="more-btn">
+           <a href="menu.php" class="btn">veiw all</a>
+        </div>
+     
+     </section>
+
+     <section class="reserve-table-section">
+        <div class="reserve-table-content">
+            <h2>Reserve Your Table Today!</h2>
+            <p>Experience the culinary art at The Gallery Café. Book your table now to enjoy an unforgettable dining experience.</p>
+            <a href="reservation.html" class="reserve-button">Reserve a Table</a>
+        </div>
+    </section>
+    <style>
+        
+/* Reserve a Table Section */
+.reserve-table-section {
+    background-image: url('images/bg1.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.reserve-table-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay effect */
+    z-index: -1;
+}
+
+.reserve-table-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.reserve-table-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #EEE8aa;
+}
+
+.reserve-table-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.reserve-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #c49a6c;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.reserve-button:hover {
+    background-color: #a17b4b;
+}
+    </style>
+    
+
+
+    <footer class="footer"><h4 class="footer-title">Contact Us</h4>
+        <section class="grid">
+            <div class="footer-contact">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>123, <br> Gallery street,<br> Colombo.</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@thegallerycafe.lk">info@thegallerycafe.lk</a>
+            </div>
+            <div class="footer-contact">
+                <i class="fas fa-user-clock"></i>
+                <p>Everyday from 9.00AM to 11.00PM</p>
+            </div>
+        </section>
+
+        <div class="credits">&copy; Copyright The Gallery Cafe 2024.All Rights Reserved.</div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+        var swiper = new Swiper(".home-slider", {
+            loop: true,
+            grabCursor: true,
+            effect: "flip",
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    </script>
+    
+</body>
+</html>
